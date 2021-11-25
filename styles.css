@@ -150,3 +150,29 @@ footer {
   display: flex;
   flex-direction: row;
 }
+
+@media screen and (min-width: 374px) {
+  
+  #content {
+    width: 80vw;
+  }
+
+  #img_container {
+    max-width: 70vw;
+    margin-left: 12px;
+    margin-top: 10px;
+  }
+
+  #text {
+    width: 70vw;
+    margin-left: 12px;
+  }
+
+  #clock_div {
+    margin-left: 50px;
+  }
+
+  #avatar_img {
+    width: 9vw;
+  }
+}
